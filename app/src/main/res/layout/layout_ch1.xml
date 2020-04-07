@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="200dp"
+        android:id="@+id/ch1_1_11"
+        android:layout_height="100dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ch1_1_12"
+        android:text="+(内部匿名)"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ch1_1_13"
+        android:text="-（内部类）"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ch1_1_14"
+        android:text="*（直接实现）"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ch1_1_15"
+        android:text="/（XML调用）"
+        android:onClick="xml"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/ch1_1_16"
+        android:hint="please a null"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/ch1_1_17"
+        android:hint="please a null"
+        android:layout_height="wrap_content" />
+</LinearLayout>
