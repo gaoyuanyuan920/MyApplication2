@@ -18,7 +18,7 @@ public class MainActivity02 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //界面跳转
-                Intent intent =new Intent(MainActivity02.this, Ch1Activity.class);
+                Intent intent = new Intent(MainActivity02.this, Ch1Activity.class);
                 startActivity(intent);
 
             }
@@ -27,11 +27,27 @@ public class MainActivity02 extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 //界面跳转
-                Intent intent=new Intent(MainActivity02.this, Ch2Activity.class);
+                Intent intent = new Intent(MainActivity02.this, Ch2Activity.class);
                 startActivity(intent);
             }
         });
 
+        Button button2 = (Button) findViewById(R.id.work3);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //界面跳转
+                Intent intent = new Intent(MainActivity02.this, Ch3Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button button3 = (Button) findViewById(R.id.work5);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //界面跳转
+                Intent intent = new Intent(MainActivity02.this, Ch5Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
