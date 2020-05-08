@@ -20,6 +20,11 @@ android:layout_height="match_parent">
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="match_parent"
+        android:text="作业四"
+        android:id="@+id/work4"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
         android:text="作业五"
         android:id="@+id/work5"
         android:layout_height="wrap_content" />

@@ -40,6 +40,14 @@ public class MainActivity02 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button button4 = (Button) findViewById(R.id.work4);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //界面跳转
+                Intent intent = new Intent(MainActivity02.this, Ch4Activity.class);
+                startActivity(intent);
+            }
+        });
         Button button3 = (Button) findViewById(R.id.work5);
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
